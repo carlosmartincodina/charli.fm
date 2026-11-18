@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 64px;
+  background-color: #F7F7F2;
+}
+h1, h2 {
+  font-weight: normal;
+}
+a {
+  text-decoration: none;
+}
+.cabecera {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  padding: 32px;
+  background-color: #283044;
+}
+.cabecera a, footer a {
+  color: white;
+}
+.logo {
+  margin-right: 48px;
+  font-size: 20px;
+}
+nav a {
+  margin-right: 32px;
+}
+main {
+  flex: 1;
+  padding: 48px 32px;
+}
+h1 {
+  font-size: 32px;
+}
+.buscador {
+  width: 480px;
+  max-width: 100%;
+  height: 44px;
+  margin: 32px 0;
+  padding: 0 16px;
+  border: none;
+  background-color: #D9D9D6;
+}
+.recomendadas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+.recomendadas h2 {
+  width: 100%;
+  font-size: 16px;
+}
+.tarjeta {
+  width: 200px;
+  text-align: center;
+}
+.icono {
+  display: block;
+  padding: 50px 0;
+  background-color: #D9D9D6;
+  font-size: 64px;
+}
+.tarjeta h3 {
+  margin: 16px 0 8px;
+}
+.escuchar {
+  color: black;
+}
+footer {
+  padding: 24px 32px;
+  background-color: #283044;
+}
+footer a {
+  margin-right: 48px;
+}
